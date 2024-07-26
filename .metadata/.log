@@ -1,0 +1,164 @@
+!SESSION 2024-07-21 09:44:22.845 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-21 09:44:27.012
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-21 09:44:46.568
+!MESSAGE Logback config file: /home/ahsanali/Documents/eclipseWorker/new/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-21 09:44:47.110
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-21 09:44:47.110
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-21 09:44:47.538
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-21 09:44:47.538
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-07-21 09:45:05.045
+!MESSAGE An internal error occurred during: "https://www.eclipse.org/setups/setups.zip".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:190)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:253)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getLogService(Activator.java:202)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.log(Activator.java:213)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:200)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:199)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-07-21 09:45:06.186
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.oomph.internal.ui.EarlyStart$1
+!SESSION 2024-07-21 17:30:35.928 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-21 17:30:47.419
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-21 17:30:49.688
+!MESSAGE Logback config file: /home/ahsanali/Documents/eclipseWorker/new/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-21 17:30:50.397
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-21 17:30:50.397
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-21 17:30:50.866
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-21 17:30:50.866
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-07-21 17:31:14.865
+!MESSAGE An internal error occurred during: "https://www.eclipse.org/setups/setups.zip".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.createFilter(String)" because "context" is null
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:190)
+	at org.osgi.util.tracker.ServiceTracker.<init>(ServiceTracker.java:253)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.getLogService(Activator.java:202)
+	at org.eclipse.ecf.internal.provider.filetransfer.httpclient5.Activator.log(Activator.java:213)
+	at org.eclipse.ecf.provider.filetransfer.httpclient5.HttpClientRetrieveFileTransfer.hardClose(HttpClientRetrieveFileTransfer.java:200)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:199)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:76)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2024-07-21 17:31:15.721
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.oomph.internal.ui.EarlyStart$1
+!SESSION 2024-07-21 20:44:17.518 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-21 20:44:29.381
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-21 20:44:31.813
+!MESSAGE Logback config file: /home/ahsanali/Documents/eclipseWorker/new/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-21 20:44:32.520
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-21 20:44:32.521
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-21 20:44:33.008
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-21 20:44:33.008
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+!SESSION 2024-07-26 11:24:14.478 -----------------------------------------------
+eclipse.buildId=4.32.0.20240606-1231
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-26 11:24:26.281
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-07-26 11:24:28.677
+!MESSAGE Logback config file: /home/ahsanali/Documents/eclipseWorker/new/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2024-07-26 11:24:29.388
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-26 11:24:29.389
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2024-07-26 11:24:29.861
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2024-07-26 11:24:29.861
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-26 11:33:06.399
+!MESSAGE Classpath changed for project: inMemoryAuthentication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-26 11:33:06.400
+!MESSAGE Boot project ADDED: inMemoryAuthentication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-26 11:33:06.405
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-26 11:33:06.495
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-26 11:33:06.517
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/snap/eclipse/95/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.3.v20240426-1530/jre/bin/java
+-cp
+/snap/eclipse/95/../../../home/ahsanali/snap/eclipse/95/amd64/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes:/snap/eclipse/95/../../../home/ahsanali/snap/eclipse/95/amd64/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/lib/*
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:/snap/eclipse/95/../../../home/ahsanali/snap/eclipse/95/amd64/plugins/org.springframework.tooling.boot.ls_1.55.1.202406141939/servers/spring-boot-language-server/BOOT-INF/classes/application.properties
+-XX:ErrorFile=/home/ahsanali/Documents/eclipseWorker/new/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1721975586516
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-26 11:33:06.517
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-07-26 11:33:06.525
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 8304
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-26 11:33:08.929
+!MESSAGE Classpath changed for project: inMemoryAuthentication
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-26 11:40:38.097
+!MESSAGE Classpath changed for project: inMemoryAuthentication
